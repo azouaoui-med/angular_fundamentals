@@ -42,6 +42,6 @@
         <textarea formControlName="abstract" id="abstract" rows=3 class="form-control" placeholder="abstract..."></textarea>
       </div>
       <button type="submit" class="btn btn-primary" [disabled]="newSessionForm.invalid">Save</button>
-      <button type="button" class="btn btn-default">Cancel</button>
+      <button type="button" class="btn btn-default" (click)="cancel()">Cancel</button>
     </form>
   </div>

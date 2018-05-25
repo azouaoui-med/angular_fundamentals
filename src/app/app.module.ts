@@ -18,9 +18,11 @@ import {
         CreateEventComponent,
         EventRouteActivatorService,
         EventsListResolverService, 
-        CreateSessionComponent
+        CreateSessionComponent,
+        SessionListComponent
       } from './events/index'
       
+import { CollapsibaleWellComponent } from './common/collapsibale-well.component';
 import { AuthService } from './user/auth.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -33,6 +35,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NavBarComponent,
     CreateEventComponent,
     CreateSessionComponent,
+    SessionListComponent,
+    CollapsibaleWellComponent,
     Error404Component
   ],
   imports: [
